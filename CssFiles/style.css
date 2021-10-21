@@ -562,17 +562,17 @@ header .show li a:hover {
 
 
   .num0:hover {
-  background-color: unset;
-  border: unset;
-  height: unset;
-  width: unset;
+  background-color: none;
+  border: none;
+  height: none;
+  width: none;
 }
 
 .element:not(.num0):hover {
-  background-color: unset;
-  border: unset;
-  height: unset;
-  width: unset;
+  background-color: none;
+  border: none;
+  height: none;
+  width: none;
 }
 
 
