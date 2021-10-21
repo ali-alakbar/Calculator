@@ -553,10 +553,10 @@ header .list:hover {
 
 
 header .show li a:hover {
-    border-radius: unset !important;
-    background-color: unset !important;
+    border-radius: none !important;
+    background-color: none !important;
     position: relative;
-    padding-left: unset;
+    padding-left: none;
     z-index: 333;
   }
 
