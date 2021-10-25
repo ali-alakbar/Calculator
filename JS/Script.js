@@ -109,3 +109,51 @@ calcContianer.addEventListener("click",
     
 );
 // ========================= End Arthimitic Operations =========================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ====================== Start Scrolling Effect ====================== 
+
+// This section will appear the dissapeared elements once you scrool 
+
+// Call the paragraph
+const myDetalis = document.getElementById("myDetalis");
+
+// Call the section as group or array
+const section = document.querySelectorAll(".section");
+
+window.addEventListener('scroll',
+(e) => {
+
+      if (window.pageYOffset >= 600) {
+        myDetalis.classList.add("active");
+      }
+
+      section.forEach( (e) => {
+              
+                if (window.pageYOffset >= 1200) {
+                  e.classList.add("active");
+                }
+
+      });
+
+
+
+}
+
+
+)
+// ====================== End Scrolling Effect ====================== 
+
+
