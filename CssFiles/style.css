@@ -387,8 +387,12 @@ input {
 .moreDetali .content .container .special-content p {
   padding-top: 4rem;
 }
-.moreDetali .content .container .detalis p {
+.moreDetali .content .container .detalis #myDetalis {
   text-align: start;
+  opacity: 0;
+  top: -60px;
+
+
 }
 /* ===== End Detalis ===== */
 
@@ -463,9 +467,16 @@ footer .container .rights p {
 footer .container h3 {
   margin-bottom: 1rem;
 }
+
 footer .container .section {
   padding: 5rem 0;
+  opacity: 0;
+  top: -60px;
+  position: relative;
 }
+
+
+
 
 footer .container .more-content {
   display: flex;
@@ -553,10 +564,10 @@ header .list:hover {
 
 
 header .show li a:hover {
-    border-radius: none !important;
-    background-color: none !important;
+    border-radius: unset !important;
+    background-color: unset !important;
     position: relative;
-    padding-left: none;
+    padding-left: unset;
     z-index: 333;
   }
 
@@ -594,3 +605,31 @@ header .show li a:hover {
 
 
 
+
+
+
+/*====================== Start Scrolling Effect ====================== */
+
+/* This section will appear the dissapeared elements once you scrool */
+
+.moreDetali .active{
+opacity: 1 !important;
+transition: all  0.5s ease-in-out;
+position: relative;
+top: 10px !important;
+
+}
+
+
+footer .active{
+  opacity: 1 !important;
+  transition: all  0.5s ease-in-out;
+  position: relative;
+  top: 10px !important;
+}
+
+
+
+
+
+/*====================== End Scrolling Effect ====================== */
