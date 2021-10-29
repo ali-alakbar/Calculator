@@ -130,19 +130,23 @@ calcContianer.addEventListener("click",
 // Call the paragraph
 const myDetalis = document.getElementById("myDetalis");
 
+const boggi = document.querySelector(".boggi");
+
 // Call the section as group or array
 const section = document.querySelectorAll(".section");
 
 window.addEventListener('scroll',
 (e) => {
 
-      if (window.pageYOffset >= 600) {
+      if (window.pageYOffset >= 400) {
         myDetalis.classList.add("active");
+        boggi.classList.add("active");
       }
 
       section.forEach( (e) => {
               
                 if (window.pageYOffset >= 1200) {
+                  
                   e.classList.add("active");
                 }
 
