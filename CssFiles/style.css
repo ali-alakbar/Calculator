@@ -354,6 +354,8 @@ input {
 }
 .moreDetali .content .container .special-content {
   position: relative;
+  opacity: 0;
+  top: -60px;
 }
 .moreDetali .content .container .special-content h1 {
   text-align: center;
@@ -620,6 +622,12 @@ top: 10px !important;
 
 }
 
+.content .active{
+  opacity: 1 !important;
+transition: all  0.5s ease-in-out;
+position: relative;
+top: 10px !important;
+}
 
 footer .active{
   opacity: 1 !important;
@@ -627,7 +635,6 @@ footer .active{
   position: relative;
   top: 10px !important;
 }
-
 
 
 
